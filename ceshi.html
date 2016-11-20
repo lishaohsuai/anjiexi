@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ceshi</title>
+</head>
+<body>
+	<p><input type="radio" name="Man1" value="A"></p>
+		    	<p><input type="radio" name="Man1" value="B"></p>
+		    	<p><input type="radio" name="Man1" value="C"></p>
+		    	<p><input type="radio" name="Man1" value="D"></p>
+<script >
+	(function(argument) {
+		var ss = document.getElementsByTagName('input');
+		ss[0].addEventListener('click', function(){
+			ss[0].style.display = 'none';
+		})
+	})()
+</script>
+</body>
+</html>

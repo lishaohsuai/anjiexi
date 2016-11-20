@@ -1,0 +1,61 @@
+body{
+	background-color: white;
+	font:12px/14px "微软雅黑";
+}
+header{
+	width: 100%;
+	background-color: #fff;
+	height: 100px;
+	border:lightgray 2px solid;
+}
+
+header a{
+	display: inline-block;
+    width: 338px;
+    height: 73px;
+    text-indent: -9999px;
+    background: url(http://www.bioags.com/Web/Tpl/default/images/logo.png) no-repeat;	
+}
+
+
+header #title{
+	
+	font:22px/14px "微软雅黑";
+	margin-right: 0px;
+	text-align: center;
+	vertical-align: bottom;
+	margin-bottom: 20px;
+}
+#description{
+	margin-top: 5px;
+	font-size: 18px;
+	display: inline-block;
+	line-height: 20px;
+	border:lightgray 2px solid;
+}
+.content{
+	width: 500px;
+	height: 350px;
+	margin: 50px auto;
+	font-size: 18px;
+	line-height: 20px;
+	background-color: lightgray;
+	box-shadow:2px 2px 2px lightgray;
+	position: relative;
+}
+.arr{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+}
+.arr div{
+	margin-left: 20px;
+	float: left;
+}
+
+
+/**{
+	border: red 1px solid;
+}*/
