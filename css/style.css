@@ -1,6 +1,6 @@
 body{
 	background-color: white;
-	font:12px/14px "微软雅黑";
+	font:16px/14px "微软雅黑";
 }
 header{
 	width: 100%;
@@ -53,6 +53,20 @@ header #title{
 .arr div{
 	margin-left: 20px;
 	float: left;
+}
+
+.num0{
+
+}
+.logbox{
+	margin-left: 80px!important;
+}
+.account{
+	font-size: 18px;
+	margin-left: 1em;
+}
+.password,.button{
+	font-size: 18px;
 }
 
 
