@@ -2,8 +2,12 @@ body{
 	background-color: white;
 	font:16px/14px "微软雅黑";
 }
+.bodyShow{
+	width: 1206px;
+	height:1000px;
+}
 header{
-	width: 100%;
+	width: 1206px;
 	background-color: #fff;
 	height: 100px;
 	border:lightgray 2px solid;
@@ -27,6 +31,7 @@ header #title{
 	margin-bottom: 20px;
 }
 #description{
+	width:1206px;
 	margin-top: 5px;
 	font-size: 18px;
 	display: inline-block;
@@ -34,11 +39,11 @@ header #title{
 	border:lightgray 2px solid;
 }
 .content{
-	width: 500px;
+	width: 600px;
 	height: 350px;
 	margin: 50px auto;
 	font-size: 18px;
-	line-height: 20px;
+	line-height: 30px;
 	background-color: lightgray;
 	box-shadow:2px 2px 2px lightgray;
 	position: relative;
@@ -48,13 +53,19 @@ header #title{
 	top:50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	width: 400px;
+	width: 500px;
 }
 .arr div{
 	margin-left: 20px;
 	float: left;
 }
-
+.beautifulInput{
+	width:16px;
+	height:16px;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	border-radius: 50%;
+}
 .num0{
 
 }
@@ -68,8 +79,15 @@ header #title{
 .password,.button{
 	font-size: 18px;
 }
-
-
+b{
+	font-weight: bold;
+}
+.show{
+	line-height: 1.3em;
+}
+#character{
+	line-height: 1.3em;
+}
 /**{
 	border: red 1px solid;
 }*/

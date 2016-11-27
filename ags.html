@@ -10,19 +10,19 @@
 	<link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-
+<div class="bodyShow">
 <header>
 
 	<a>安杰思医学科技有限公司</a>
 
 	<h1 id='title'>DISC性格测试:</h1>
 	
-		
 </header>
+
 <div id="description">
 		<span>温馨提示：</span>
 		<p>
-		该问卷共有28个问题，每道题都有4组描述性词汇，你需要从中分别选取出一个最接近（M表示最接近）和最不接近（L表示最不接近）你工作中的状态，但这两个答案不能是相同的。如果你发现难以决定选择哪一项的时候，只需要靠你的直觉来回答即可。
+		该问卷共有28个问题，每道题都有4组描述性词汇，你需要从中分别选取出一个最接近<em style="text-decoration:underline;font-weight: bold;">（M表示最接近）</em>和最不接近<em style="text-decoration:underline;font-weight: bold;">（L表示最不接近）</em>你工作中的状态，但这两个答案不能是相同的。如果你发现难以决定选择哪一项的时候，只需要靠你的直觉来回答即可。
 		选过的题目不可回跳。
 		</p>
 </div>
@@ -39,7 +39,7 @@
 	<div class="num1 arr">
 		    <div class="con_des">
 		    	<p>NO.1</p>
-		    	<p>兴致勃勃:对事杂感到兴趣</p>
+		    	<p>兴致勃勃:对事务感到兴趣</p>
 		    	<p>敢做敢为：勇于冒险</p>
 		    	<p>交往得体：彬彬有礼，尊重他人</p>
 		    	<p>满足：心满意足</p>
@@ -181,7 +181,7 @@
 		    	<p>关于表达：懂得表现情感</p>
 		    	<p>认真：谨慎专注</p>
 		    	<p>支配欲强：喜欢处于控制地位</p>
-		    	<p>反应力强：对他人言行能够快速反应</p>
+		    	<p>反应力强：对他人言行能快速反应</p>
 		    </div>
 		    <div class = "con_M_cho">
 		    	<p>M</p>
@@ -252,7 +252,7 @@
 		    	<p>勇敢：有勇气，无畏</p>
 		    	<p>善于鼓舞人：激励别人去做某事</p>
 		    	<p>乐于服从：顺从，温和</p>
-		    	<p>胆怯：缺乏信息</p>
+		    	<p>胆怯：缺乏信心</p>
 		    </div>
 		    <div class = "con_M_cho">
 		    	<p>M</p>
@@ -299,7 +299,7 @@
 		    	<p>NO.12</p>
 		    	<p>激发性：令人振奋</p>
 		    	<p>仁慈：愿意施予或分享</p>
-		    	<p>有洞察力</p>
+		    	<p>有洞察力：能够理解所发生的事情</p>
 		    	<p>独立性：不依赖别人</p>
 		    </div>
 		    <div class = "con_M_cho">
@@ -344,9 +344,9 @@
 		    <div class="con_des">
 		    	<p>NO.14</p>
 		    	<p>挑剔：要求事物</p>
-		    	<p>顺从：愿意听从指挥</p>
+		    	<p>顺从：愿意听从指示</p>
 		    	<p>坚定：不改变主张、心意</p>
-		    	<p>喜欢耍乐</p>
+		    	<p>调皮：喜欢耍乐</p>
 		    </div>
 		    <div class = "con_M_cho">
 		    	<p>M</p>
@@ -369,7 +369,7 @@
 		    	<p>有吸引力：令人喜爱</p>
 		    	<p>自我省查：深思熟虑</p>
 		    	<p>固执：拒绝妥协</p>
-		    	<p>可预测的始终如一</p>
+		    	<p>可预测的：始终如一</p>
 		    </div>
 		    <div class = "con_M_cho">
 		    	<p>M</p>
@@ -483,7 +483,7 @@
 	    	<p>NO.20</p>
 	    	<p>充满信息：有信心</p>
 	    	<p>有同情心：为他人的忧而忧</p>
-	    	<p>公正：品等的对待所有人</p>
+	    	<p>公正：平等的对待所有人</p>
 	    	<p>肯定的：确信且强有力</p>
 	    </div>
 	    <div class = "con_M_cho">
@@ -576,7 +576,7 @@
 	    	<p>俘获人心：使人神魂颠倒</p>
 	    	<p>安于现状：容易满足</p>
 	    	<p>苛求：利用强权达到目的</p>
-	    	<p>循规蹈矩：安规矩行事</p>
+	    	<p>循规蹈矩：按规矩行事</p>
 	    </div>
 	    <div class = "con_M_cho">
 	    	<p>M</p>
@@ -702,9 +702,10 @@
 	</ol>
 </div>
 <div id="chartContainer" style="height: 400px; width: 100%;"></div>
-<div id="character" style="height: 400px; width: 100%;">
+<div id="character" style="height: 800px; width: 100%;">
 	<p id="characterT"></p>
 	<p id="characterP"></p>
+</div>
 </div>
 
 	<script  type="text/javascript" src="./js/canvasjs.min.js"></script>
