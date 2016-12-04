@@ -217,7 +217,7 @@ function chart() {
 				  { y: valueD, label: "D" },
 				  { y: valueI, label: "I" },
 				  { y: valueS, label: "S" },
-				  { y: valueD, label: "C" },
+				  { y: valueC, label: "C" },
 				]
 			}]
 		});
