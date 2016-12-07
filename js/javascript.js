@@ -223,17 +223,26 @@ function chart() {
 		});
 		chart.render();
 }
+//排序规则函数
+function sortNumber(a,b){
+	return a - b;
+}
 //生成对应数据
 function datacharacter(){
 	var i;
 	var temp=[];
+	var temp_int;
 	var characterP = document.getElementById('characterP');
 	var characterT = document.getElementById('characterT');
+	var j;
+	var k;
+
 	temp[0] = valueD;
 	temp[1] = valueI;
 	temp[2] = valueC;
 	temp[3] = valueS;
-	temp.sort();
+	temp.sort(sortNumber);
+
 	if(temp[3] == valueD){// D高
 		characterT.innerHTML = "<b>D高：力量型！—具有领导能力</b><br>\
 <b>特点：</b>外向、行动者、乐观。喜欢做主、行动力强、行动速度、思考力稍弱、喜欢做目标、不达目的不罢休、充满自信、意志坚定、有活力、做事主动、不易气馁、是推动别人行动的人、粗线条、不容易适应环境（不过由于行动力很强 所以往往做事会有很大成就 ）。 <br/>\
